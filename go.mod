@@ -1,12 +1,12 @@
 module github.com/openfaas/faas-netes
 
-go 1.17
+go 1.18
 
 require (
 	cloud.google.com/go v0.81.0 // indirect
 	github.com/google/go-cmp v0.5.8
 	github.com/gorilla/mux v1.8.0
-	github.com/openfaas/faas-provider v0.18.10
+	github.com/openfaas/faas-provider v0.19.0
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.12.2
 	k8s.io/api v0.21.3
