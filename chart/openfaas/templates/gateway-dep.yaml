@@ -126,6 +126,12 @@ spec:
           value: "{{ .Values.nats.channel }}"
         {{- end }}
         {{- end }}
+        {{- if .Values.gateway.customPrometheusConfig }}
+        - name: faas_prometheus_host
+          value: {{ .Values.gateway.customPrometheusConfig.env.faas_prometheus_host }}
+        - name: faas_prometheus_port
+          value: {{ .Values.gateway.customPrometheusConfig.env.faas_prometheus_port }}
+        {{- end }}
         {{- if .Values.basic_auth }}
         - name: basic_auth
           value: "true"

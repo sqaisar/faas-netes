@@ -109,6 +109,12 @@ gateway:
   upstreamTimeout: "60s"  # Must be smaller than read/write_timeout
   replicas: 1
   scaleFromZero: true
+  # Change prometheus to custom host/svc url if you want to use your own prometheus stack with openfaas
+  customPrometheusConfig:
+    enabled: true
+    env:
+      faas_prometheus_host: prometheus.monitoring.svc.cluster.local
+      faas_prometheus_port: 9090
   # change the port when creating multiple releases in the same baremetal cluster
   nodePort: 31112
   maxIdleConns: 1024
