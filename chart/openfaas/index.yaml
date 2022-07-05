@@ -1,0 +1,30 @@
+apiVersion: v1
+entries:
+  openfaas:
+  - apiVersion: v2
+    created: "2022-07-05T14:12:35.344926+05:00"
+    description: OpenFaaS - Serverless Functions Made Simple
+    digest: 756437c70c6624f892d16ce9d6c7f6b5aab264e95c23f12d678ef7789f3acedd
+    home: https://www.openfaas.com
+    icon: https://raw.githubusercontent.com/openfaas/media/master/OpenFaaS_logo_stacked_opaque.png
+    keywords:
+    - serverless
+    - functions
+    - platform
+    - faas
+    maintainers:
+    - email: alex@openfaas.com
+      name: alexellis
+    - email: han@openfaas.com
+      name: welteki
+    - email: roesler.lucas@gmail.com
+      name: lucasroesler
+    name: openfaas
+    sources:
+    - https://github.com/openfaas/faas
+    - https://github.com/openfaas/faas-netes
+    type: application
+    urls:
+    - https://github.com/sqaisar/faas-netes/tree/custom-prometheus-host/chart/openfaas/openfaas-10.1.4.tgz
+    version: 10.1.4
+generated: "2022-07-05T14:12:35.342495+05:00"
