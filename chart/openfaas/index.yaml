@@ -25,6 +25,6 @@ entries:
     - https://github.com/openfaas/faas-netes
     type: application
     urls:
-    - https://github.com/sqaisar/faas-netes/tree/custom-prometheus-host/chart/openfaa/openfaas-10.1.4.tgz
+    - https://raw.githubusercontent.com/sqaisar/faas-netes/custom-prometheus-host/chart/openfaas/openfaas-10.1.4.tgz
     version: 10.1.4
 generated: "2022-07-05T15:46:24.540841+05:00"
